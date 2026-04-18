@@ -19,6 +19,6 @@ Deno.test("Zypi folgt auf Dubi", () => {
   // When
   const nextStepper = destinations[start + 1];
 
-  // Then 
+  // Then
   assertEquals(nextStepper, "Zypi");
 });
